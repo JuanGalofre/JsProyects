@@ -1,0 +1,1 @@
+Para generar line-gradients https://www.quackit.com/css/functions/css_linear-gradient_function.cfm#:~:text=Linear%20gradients%20can%20go%20in,that%20runs%20between%20each%20color.
