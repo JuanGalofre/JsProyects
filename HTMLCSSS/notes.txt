@@ -1,1 +1,8 @@
 Para generar line-gradients https://www.quackit.com/css/functions/css_linear-gradient_function.cfm#:~:text=Linear%20gradients%20can%20go%20in,that%20runs%20between%20each%20color.
+
+Propiedades interesantes de los tag.
+  Required en el input para forzar a llenar dicho atributo
+  Pattern para ajustar un regex al cual se deba adaptar lo que le pongan en el campo
+  Para poder relacionar dos checkbox redondos, se les pone el mismo nombre, esto indica que se les puede presionar a los dos al mismo tiempo
+  type="file" para subir archivos
+  input tiene min y max.
