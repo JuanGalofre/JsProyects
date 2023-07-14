@@ -6,3 +6,12 @@ Propiedades interesantes de los tag.
   Para poder relacionar dos checkbox redondos, se les pone el mismo nombre, esto indica que se les puede presionar a los dos al mismo tiempo
   type="file" para subir archivos
   input tiene min y max.
+  Para hacer dropdowns, se puede usar select, donde se ponen options. Cada opción debe tener un value
+  Se le puede poner rows y columns a un textarea
+Css
+  Es text-align, no align-text
+  todo tiene max-width, min-width, etc
+  Argumentos con 4, es Top, Left, Bottom, Right
+  p:last-of-type{} para en css editar el ultimo elemento
+  Para adquirir todo el width del padre, se usa width:100%
+  Border recibe tipo, grosor y color
