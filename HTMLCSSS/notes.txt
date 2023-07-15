@@ -15,3 +15,17 @@ Css
   p:last-of-type{} para en css editar el ultimo elemento
   Para adquirir todo el width del padre, se usa width:100%
   Border recibe tipo, grosor y color
+Cosas que siempre se me olvidan 
+  el lang va en el HTML
+  el charset va en el meta
+
+Aprendizaje del proyecto 1
+  Recordar que el form facilita el submit de los valores en los inputs
+  Los fieldset ayudan a dividr los campos de un form
+  Hay cosa como los inputmodes= que es un atributo para un input, el cual puede   colaborarle a los browser para decidir que deberia mostrar cuando un usuario va a digitar algo en ese campo
+  Los labels que dan nombre a los select, o a cualquier grupo de cosas a las que les dan nombre en el html, los envuelven:
+  <label>Would you recommend freeCodeCamp to a friend
+    <label><input type="radio"></label>
+    <label><input type="radio"></label>
+    <label><input type="radio"></label>
+  </label>
