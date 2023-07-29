@@ -43,7 +43,37 @@ CSS
       align-items: center; /* Centers the form vertically */
       height: 100vh; /* Optional: You can adjust the height as per your requirements */
     }
-  como en esta ocasión lo queria usar en un body, es mejor hacerlo con la margen. Porque todo adentro del container, se vuelve flex.-> como si fuera un inline
+  como en esta ocasión lo queria usar en un body, es mejor hacerlo con la margen. Porque todo adentro del container, se vuelve flex.-> como si fuera un inline.
+  -> Como estoy acostumbrado a combinar los inputs dentro de los labels, pasa algo curioso y es que queda:
+      input label
+    Y la idea es que quede:
+      label
+      input
+    Como solo hay inputs en el html, los inputs se stackean uno encima de otro. Al ponerle display:block;, solo se van a separar los labels.
+      input label  input label  input label
+
+      label{ display:block;}
+
+      input label
+      input label
+      input label
+    Naturalmente, al hacer:
+      input{ display:block; }
+    Aparecerá:
+      input
+      label
+      input
+      label
+      input
+      label
+    Aqui es importante conocer que la ubicación en el Html si importa. Si escribimos <label>Nombre<input></label>. Aparecerá:
+      Nombre
+      input
+    Mientras que si escribimos <label><input>Nombre</label>. Aparecerá:
+      input
+      Nombre
+      
+    
 
 
 
