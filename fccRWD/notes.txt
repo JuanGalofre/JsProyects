@@ -29,3 +29,21 @@ Aprendizaje del proyecto 1
     <label><input type="radio"></label>
     <label><input type="radio"></label>
   </label>
+  Multiple selección, se le debe poner el mismo name. Funciona más con los checkbox que con los radio-button.
+CSS
+  ->En general se le pone 
+      width: 100%;
+    height: 100vh;
+  al body en el css. Con eso ocupa todo el espacio disponible
+  ->Multiples elementos con las mismas reglas, se separan por ","
+  ->Hay dos formas de centrar algo, desde el padre, o en el mismo objeto. En el objeto se puede usar la margin. Desde el padre se puede usar 
+    .container {
+      display: flex;
+      justify-content: center; /* Centers the form horizontally */
+      align-items: center; /* Centers the form vertically */
+      height: 100vh; /* Optional: You can adjust the height as per your requirements */
+    }
+  como en esta ocasión lo queria usar en un body, es mejor hacerlo con la margen. Porque todo adentro del container, se vuelve flex.-> como si fuera un inline
+
+
+
