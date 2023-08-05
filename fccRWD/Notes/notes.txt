@@ -72,7 +72,10 @@ CSS
     Mientras que si escribimos <label><input>Nombre</label>. Aparecerá:
       input
       Nombre
-      
+TIPOGRAFIA  
+  La forma para importar tipografia de una fuente de google seria <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+
+
     
 
 
